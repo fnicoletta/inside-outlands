@@ -1,0 +1,55 @@
+{
+  "id": "io1e",
+  "title": "Inside Outlands 1st Edition",
+  "description": "The Inside Outlands 1st Edition system for FoundryVTT!",
+  "authors": [
+    {
+      "name": "Asacolips",
+      "discord": "asacolips"
+    },
+    {
+      "name": "Lee Talman",
+      "discord": ".pizzaWizard"
+    },
+    {
+      "name": "Franky Khoury",
+      "discord": "KindOfGuilty"
+    }
+  ],
+  "url": "Replace this with a link to your public repository",
+  "license": "LICENSE.txt",
+  "readme": "README.md",
+  "bugs": "",
+  "changelog": "CHANGELOG.md",
+  "media": [
+    {
+      "type": "setup",
+      "url": "systems/io1e/assets/anvil-impact.png",
+      "thumbnail": "systems/io1e/assets/anvil-impact.png"
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": 12,
+    "verified": "12"
+  },
+  "esmodules": ["module/io1e.mjs"],
+  "styles": ["css/io1e.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [],
+  "packFolders": [],
+  "socket": false,
+  "manifest": "Replace this with a link to the /latest release system.json so people can receive updates after they've installed the system",
+  "download": "This must link to a .zip file of the current version",
+  "background": "systems/io1e/assets/anvil-impact.png",
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "power"
+}
