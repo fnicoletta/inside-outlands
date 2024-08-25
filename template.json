@@ -8,16 +8,6 @@
           "min": 0,
           "max": 10
         },
-        "power": {
-          "value": 5,
-          "min": 0,
-          "max": 5
-        },
-        "biography": ""
-      }
-    },
-    "character": {
-      "templates": ["base"],
       "attributes": {
         "level": {
           "value": 1
@@ -42,7 +32,12 @@
         "san": {
           "value": 0
         }
+      },
+        "biography": ""
       }
+    },
+    "character": {
+      "templates": ["base"]
     },
     "npc": {
       "templates": ["base"],
@@ -50,7 +45,7 @@
     }
   },
   "Item": {
-    "types": ["item", "feature", "spell"],
+    "types": ["item", "feature", "spell", "weapon"],
     "templates": {
       "base": {
         "description": ""
@@ -68,6 +63,10 @@
     "spell": {
       "templates": ["base"],
       "spellLevel": 1
+    },
+    "weapon": {
+      "templates": ["base"],
+      "damage": 0
     }
   }
 }

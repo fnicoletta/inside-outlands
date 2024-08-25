@@ -16,7 +16,7 @@
       "discord": "KindOfGuilty"
     }
   ],
-  "url": "Replace this with a link to your public repository",
+  "url": "https://github.com/fnicoletta/inside-outlands",
   "license": "LICENSE.txt",
   "readme": "README.md",
   "bugs": "",
@@ -28,7 +28,7 @@
       "thumbnail": "systems/io1e/assets/anvil-impact.png"
     }
   ],
-  "version": "1.0.0",
+  "version": "0.0.1",
   "compatibility": {
     "minimum": 12,
     "verified": "12"
@@ -51,5 +51,5 @@
   "gridDistance": 5,
   "gridUnits": "ft",
   "primaryTokenAttribute": "health",
-  "secondaryTokenAttribute": "power"
+  "secondaryTokenAttribute": "wound"
 }
